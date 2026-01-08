@@ -14,4 +14,4 @@ Have an MCP server for government data? Submit a pull request to add it to the t
 
 ## Usage
 
-To use these servers, add the Remote URL to your MCP client configuration.
+To use these servers, clone the repositories to run locally or add the Remote URL to your MCP client configuration.
