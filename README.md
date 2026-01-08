@@ -6,7 +6,7 @@ A curated collection of Model Context Protocol (MCP) servers providing programma
 
 | Dataset | Agency | GitHub URL | Remote URL |
 |---------|--------|------------|------------|
-| U.S. Census | U.S. Census Bureau | [github.com/uscensusbureau/us-census-bureau-data-api-mcp](github.com/uscensusbureau/us-census-bureau-data-api-mcp) | |
+| U.S. Census | U.S. Census Bureau | [github.com/uscensusbureau/us-census-bureau-data-api-mcp](https://github.com/uscensusbureau/us-census-bureau-data-api-mcp) | |
 
 ## Contributing
 
