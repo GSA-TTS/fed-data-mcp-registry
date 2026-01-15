@@ -9,7 +9,6 @@
       "dataset": "U.S. Census Data",
       "description": "Provides programmatic access to U.S. Census demographic data including population, income, and housing statistics",
       "repository": "https://github.com/uscensusbureau/us-census-bureau-data-api-mcp",
-      "remote_url": "",
       "license": "CC0-1.0",
       "tags": ["demographics", "census", "population"],
       "status": "active",
@@ -21,12 +20,21 @@
       ]
     },
     {
-      "id": "epa-environmental-data",
-      "name": "EPA Environmental Data MCP Server",
-      "agency": "Environmental Protection Agency",
-      "dataset": "EPA Environmental Data",
-      "description": "Offers access to various environmental datasets including air quality, water quality, and pollution metrics collected by the EPA",
-      "repository": ""
+      "id": "usa-spending",
+      "name": "USA Spending MCP Server",
+      "agency": "U.S. Department of the Treasury",
+      "dataset": "USA Spending Data",
+      "description": "Offers access to federal spending data including contracts, grants, loans, and other financial assistance",
+      "repository": "https://github.com/GSA-TTS/usa-spending-mcp-server-DEMO/tree/main",
+      "remote_url": "https://usa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov/mcp",
+      "tags": ["spending", "contracts", "grants"],
+      "status": "active",
+      "maintainers": [
+        {
+          "name": "Samuel Levy",
+          "github": "samlevy3"
+        }
+      ]
     }
   ]
 }

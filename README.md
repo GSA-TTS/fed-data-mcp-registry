@@ -11,7 +11,8 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open s
 <!-- BEGIN GENERATED TABLE -->
 | Dataset | Agency | Server | Code | Remote |
 | --- | --- | --- | --- | --- |
-| U.S. Census Data | U.S. Census Bureau | U.S. Census Demographics MCP Server | [GitHub](https://github.com/example/census-mcp) |  |
+| U.S. Census Data | U.S. Census Bureau | U.S. Census Demographics MCP Server | [GitHub](https://github.com/uscensusbureau/us-census-bureau-data-api-mcp) |  |
+| USA Spending Data | U.S. Department of the Treasury | USA Spending MCP Server | [GitHub](https://github.com/GSA-TTS/usa-spending-mcp-server-DEMO/tree/main) | [Remote](https://usa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov/mcp) |
 <!-- END GENERATED TABLE -->
 
 
