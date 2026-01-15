@@ -55,8 +55,8 @@ function generateTable(servers) {
   });
 
   const rows = sorted.map(s => {
-    const code = s.repository ? `[GitHub](${s.repository})` : "";
-    const remote = s.remote_url ? `[Remote](${s.remote_url})` : "";
+    const code = s.repository || "";
+    const remote = s.remote_url || "";
     const status = s.status !== "active" ? ` (${s.status})` : "";
     
     return [
@@ -68,7 +68,7 @@ function generateTable(servers) {
     ];
   });
 
-  const header = ["Dataset", "Agency", "Server", "Code", "Remote"];
+  const header = ["Dataset", "Agency", "Server", "Repository", "Remote URL"];
   const separator = ["---", "---", "---", "---", "---"];
   
   const lines = [header, separator, ...rows].map(cols => 
