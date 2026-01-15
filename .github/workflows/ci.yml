@@ -3,7 +3,6 @@ name: Validate & Generate
 on:
   pull_request:
   push:
-    branches: [main]
 
 jobs:
   validate:
