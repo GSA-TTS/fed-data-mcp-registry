@@ -1,0 +1,15 @@
+{
+  "name": "open-government-mcp-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-schema.mjs",
+    "generate": "node scripts/generate-readme.mjs",
+    "check": "npm run validate && npm run generate && git diff --exit-code README.md"
+  },
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1"
+  }
+}

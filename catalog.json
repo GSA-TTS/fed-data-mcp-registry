@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "updated": "2026-01-08",
+  "servers": [
+    {
+      "id": "us-census-demographics",
+      "name": "U.S. Census Demographics MCP Server",
+      "agency": "U.S. Census Bureau",
+      "dataset": "U.S. Census Data",
+      "description": "Provides programmatic access to U.S. Census demographic data including population, income, and housing statistics",
+      "repository": "https://github.com/uscensusbureau/us-census-bureau-data-api-mcp",
+      "remote_url": "",
+      "license": "CC0-1.0",
+      "tags": ["demographics", "census", "population"],
+      "status": "active",
+      "maintainers": [
+        {
+          "name": "Example Maintainer",
+          "github": "example"
+        }
+      ]
+    },
+    {
+      "id": "epa-environmental-data",
+      "name": "EPA Environmental Data MCP Server",
+      "agency": "Environmental Protection Agency",
+      "dataset": "EPA Environmental Data",
+      "description": "Offers access to various environmental datasets including air quality, water quality, and pollution metrics collected by the EPA",
+      "repository": ""
+    }
+  ]
+}

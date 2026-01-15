@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["version", "servers"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "servers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/server"
+      }
+    }
+  },
+  "definitions": {
+    "server": {
+      "type": "object",
+      "required": ["id", "name", "agency", "dataset", "description", "repository"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Unique identifier (lowercase, hyphens only)"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Display name"
+        },
+        "agency": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Government agency"
+        },
+        "dataset": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Primary dataset name"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 500,
+          "description": "Brief description"
+        },
+        "repository": {
+          "type": "string",
+          "format": "uri",
+          "description": "Repository URL (e.g., GitHub, GitLab)"
+        },
+        "remote_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Hosted endpoint (optional)"
+        },
+        "license": {
+          "type": "string",
+          "description": "SPDX license identifier"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Keywords"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["active", "experimental", "archived"],
+          "default": "active"
+        },
+        "maintainers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "github"],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "github": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
