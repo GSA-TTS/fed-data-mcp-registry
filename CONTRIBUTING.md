@@ -42,7 +42,7 @@ Copy this template and fill in your server's details:
 | `agency` | ✅ | Government agency that owns the data |
 | `dataset` | ✅ | Primary dataset name |
 | `description` | ✅ | 1-2 sentence description (10-500 characters) |
-| `repository` | ✅ | GitHub repository URL (must start with `https://github.com/`) |
+| `repository` | ✅ | Repository URL (GitHub, GitLab, or other code forges) |
 | `remote_url` | ⬜ | Hosted endpoint URL (if available) |
 | `license` | ⬜ | SPDX identifier (e.g., `MIT`, `Apache-2.0`, `CC0-1.0`) |
 | `tags` | ⬜ | Array of relevant keywords |
@@ -105,11 +105,11 @@ If the check fails, look at the error message, fix the issue, and push again.
 
 ## Common Issues
 
-**"instancePath: /servers/0/id: must match pattern"**
+**"must match pattern" on `id` field**
 → IDs must be lowercase with hyphens only (e.g., `my-server-id`)
 
-**"instancePath: /servers/0/repository: must match pattern"**
-→ Repository must be a GitHub URL starting with `https://github.com/`
+**"must match format 'uri'" on `repository` field**
+→ Repository must be a valid URL (e.g., `https://github.com/org/repo`)
 
 **"Duplicate server IDs found"**
 → Your `id` is already taken; choose a unique one

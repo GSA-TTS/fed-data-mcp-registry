@@ -57,19 +57,17 @@ function generateTable(servers) {
   const rows = sorted.map(s => {
     const code = s.repository || "";
     const remote = s.remote_url || "";
-    const status = s.status !== "active" ? ` (${s.status})` : "";
-    
+
     return [
       mdEscape(s.dataset),
       mdEscape(s.agency),
-      mdEscape(s.name) + status,
       code,
       remote
     ];
   });
 
-  const header = ["Dataset", "Agency", "Server", "Repository", "Remote URL"];
-  const separator = ["---", "---", "---", "---", "---"];
+  const header = ["Dataset", "Agency", "Repository", "Remote URL"];
+  const separator = ["---", "---", "---", "---"];
   
   const lines = [header, separator, ...rows].map(cols => 
     `| ${cols.join(" | ")} |`
