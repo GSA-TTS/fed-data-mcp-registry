@@ -36,6 +36,66 @@
           "email": "sam.levy@gsa.gov"
         }
       ]
+    },
+    {
+      "id": "nih-reporter",
+      "name": "NIH Reporter MCP Server",
+      "agency": "National Institutes of Health",
+      "dataset": "NIH Reporter",
+      "description": "Provides access to NIH research portfolio data including grants, publications, patents, and clinical trials",
+      "repository": "https://github.com/GSA-TTS/nih-reporter-mcp-server/tree/main",
+      "remote_url": "http://nih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov/mcp",
+      "health_endpoint": "http://nih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov/health",
+      "tags": ["health", "research", "grants", "nih"],
+      "status": "active",
+      "maintainers": [
+        {
+          "name": "Mark Aronson",
+          "email": "mark.aronson@gsa.gov"
+        },
+        {
+          "name": "Haley Johnson",
+          "email": "haley.johnson@gsa.gov"
+        }
+      ]
+    },
+    {
+      "id": "cdc-places",
+      "name": "CDC PLACES MCP Server",
+      "agency": "Centers for Disease Control and Prevention",
+      "dataset": "CDC PLACES",
+      "description": "Provides access to CDC PLACES data with local health estimates for chronic disease measures across US counties and cities",
+      "repository": "https://github.com/GSA-TTS/cdc-places-mcp-server",
+      "remote_url": "http://cdc-places-mcp-server-friendly-kangaroo-rk.app.cloud.gov/mcp",
+      "health_endpoint": "http://cdc-places-mcp-server-friendly-kangaroo-rk.app.cloud.gov/health",
+      "tags": ["health", "chronic-disease", "cdc", "public-health"],
+      "status": "active",
+      "maintainers": [
+        {
+          "name": "Mark Aronson",
+          "email": "mark.aronson@gsa.gov"
+        },
+        {
+          "name": "Haley Johnson",
+          "email": "haley.johnson@gsa.gov"
+        }
+      ]
+    },
+    {
+      "id": "usa-analytics",
+      "name": "USA Analytics MCP Server",
+      "agency": "General Services Administration",
+      "dataset": "USA Analytics",
+      "description": "Provides access to analytics data from analytics.usa.gov tracking federal government website traffic",
+      "repository": "https://github.com/GSA-TTS/usdc-arc-mcp-demo",
+      "tags": ["analytics", "web-traffic", "digital-services"],
+      "status": "active",
+      "maintainers": [
+        {
+          "name": "Samuel Levy",
+          "email": "sam.levy@gsa.gov"
+        }
+      ]
     }
   ]
 }

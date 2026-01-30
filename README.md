@@ -11,6 +11,9 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open s
 <!-- BEGIN GENERATED TABLE -->
 | Dataset | Agency | Repository | Remote URL | Status |
 | --- | --- | --- | --- | --- |
+| CDC PLACES | Centers for Disease Control and Prevention | https://github.com/GSA-TTS/cdc-places-mcp-server | http://cdc-places-mcp-server-friendly-kangaroo-rk.app.cloud.gov/mcp | ![status](https://img.shields.io/website?url=http%3A%2F%2Fcdc-places-mcp-server-friendly-kangaroo-rk.app.cloud.gov%2Fhealth) |
+| USA Analytics | General Services Administration | https://github.com/GSA-TTS/usdc-arc-mcp-demo |  | — |
+| NIH Reporter | National Institutes of Health | https://github.com/GSA-TTS/nih-reporter-mcp-server/tree/main | http://nih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov/mcp | ![status](https://img.shields.io/website?url=http%3A%2F%2Fnih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov%2Fhealth) |
 | U.S. Census Data | U.S. Census Bureau | https://github.com/uscensusbureau/us-census-bureau-data-api-mcp |  | — |
 | USA Spending Data | U.S. Department of the Treasury | https://github.com/GSA-TTS/usa-spending-mcp-server-DEMO/tree/main | https://usa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov/mcp | ![status](https://img.shields.io/website?url=https%3A%2F%2Fusa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov%2Fhealth) |
 <!-- END GENERATED TABLE -->
