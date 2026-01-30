@@ -20,14 +20,15 @@ Copy this template and fill in your server's details:
   "dataset": "Example Dataset Name",
   "description": "Brief description of what data this server provides",
   "repository": "https://github.com/org/repo",
-  "remote_url": "",
+  "remote_url": "https://example.gov/mcp",
+  "health_endpoint": "https://example.gov/health",
   "license": "MIT",
   "tags": ["tag1", "tag2"],
   "status": "active",
   "maintainers": [
     {
       "name": "Your Name",
-      "github": "yourusername"
+      "email": "yourname@agency.gov"
     }
   ]
 }
@@ -44,10 +45,11 @@ Copy this template and fill in your server's details:
 | `description` | ✅ | 1-2 sentence description (10-500 characters) |
 | `repository` | ✅ | Repository URL (GitHub, GitLab, or other code forges) |
 | `remote_url` | ⬜ | Hosted endpoint URL (if available) |
+| `health_endpoint` | ⚠️ | Health check URL. **Required if `remote_url` is set** |
 | `license` | ⬜ | SPDX identifier (e.g., `MIT`, `Apache-2.0`, `CC0-1.0`) |
 | `tags` | ⬜ | Array of relevant keywords |
 | `status` | ⬜ | `active`, `experimental`, or `archived` (default: `active`) |
-| `maintainers` | ⬜ | Array of maintainer objects with `name` and `github` |
+| `maintainers` | ⬜ | Array of maintainer objects with `name` and `email` (must be .gov) |
 
 ## Adding Your Entry
 
@@ -79,14 +81,15 @@ Copy this template and fill in your server's details:
   "dataset": "American Community Survey",
   "description": "Provides programmatic access to U.S. Census demographic data including population, income, and housing statistics",
   "repository": "https://github.com/example/census-mcp",
-  "remote_url": "",
+  "remote_url": "https://census-mcp.census.gov/mcp",
+  "health_endpoint": "https://census-mcp.census.gov/health",
   "license": "CC0-1.0",
   "tags": ["demographics", "census", "population"],
   "status": "active",
   "maintainers": [
     {
       "name": "Jane Doe",
-      "github": "janedoe"
+      "email": "jane.doe@census.gov"
     }
   ]
 }

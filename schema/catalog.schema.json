@@ -59,6 +59,11 @@
           "format": "uri",
           "description": "Hosted endpoint (optional)"
         },
+        "health_endpoint": {
+          "type": "string",
+          "format": "uri",
+          "description": "Health check URL (required if remote_url is set)"
+        },
         "license": {
           "type": "string",
           "description": "SPDX license identifier"
@@ -80,17 +85,25 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["name", "github"],
+            "required": ["name", "email"],
             "properties": {
               "name": {
                 "type": "string"
               },
-              "github": {
-                "type": "string"
+              "email": {
+                "type": "string",
+                "pattern": ".+@.+\\.gov$",
+                "description": "Must be a .gov email address"
               }
             }
           }
         }
+      },
+      "if": {
+        "required": ["remote_url"]
+      },
+      "then": {
+        "required": ["health_endpoint"]
       }
     }
   }

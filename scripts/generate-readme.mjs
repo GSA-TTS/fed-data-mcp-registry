@@ -14,6 +14,7 @@ const END_MARKER = "<!-- END GENERATED TABLE -->";
  * @property {string} description
  * @property {string} repository
  * @property {string} [remote_url]
+ * @property {string} [health_endpoint]
  * @property {string} [license]
  * @property {string[]} [tags]
  * @property {"active" | "experimental" | "archived"} [status]
@@ -47,6 +48,15 @@ function mdEscape(text) {
  * @param {Server[]} servers
  * @returns {string}
  */
+/**
+ * @param {string} url
+ * @returns {string}
+ */
+function makeStatusBadge(url) {
+  const encoded = encodeURIComponent(url);
+  return `![status](https://img.shields.io/website?url=${encoded})`;
+}
+
 function generateTable(servers) {
   // Sort by agency, then dataset
   const sorted = [...servers].sort((a, b) => {
@@ -57,19 +67,21 @@ function generateTable(servers) {
   const rows = sorted.map(s => {
     const code = s.repository || "";
     const remote = s.remote_url || "";
+    const status = s.health_endpoint ? makeStatusBadge(s.health_endpoint) : "—";
 
     return [
       mdEscape(s.dataset),
       mdEscape(s.agency),
       code,
-      remote
+      remote,
+      status
     ];
   });
 
-  const header = ["Dataset", "Agency", "Repository", "Remote URL"];
-  const separator = ["---", "---", "---", "---"];
-  
-  const lines = [header, separator, ...rows].map(cols => 
+  const header = ["Dataset", "Agency", "Repository", "Remote URL", "Status"];
+  const separator = ["---", "---", "---", "---", "---"];
+
+  const lines = [header, separator, ...rows].map(cols =>
     `| ${cols.join(" | ")} |`
   );
 
