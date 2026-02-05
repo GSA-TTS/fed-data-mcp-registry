@@ -80,23 +80,6 @@
           "type": "string",
           "enum": ["active", "experimental", "archived"],
           "default": "active"
-        },
-        "maintainers": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["name", "email"],
-            "properties": {
-              "name": {
-                "type": "string"
-              },
-              "email": {
-                "type": "string",
-                "pattern": ".+@.+\\.gov$",
-                "description": "Must be a .gov email address"
-              }
-            }
-          }
         }
       },
       "if": {

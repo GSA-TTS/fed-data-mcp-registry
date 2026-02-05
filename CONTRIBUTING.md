@@ -24,13 +24,7 @@ Copy this template and fill in your server's details:
   "health_endpoint": "https://example.gov/health",
   "license": "MIT",
   "tags": ["tag1", "tag2"],
-  "status": "active",
-  "maintainers": [
-    {
-      "name": "Your Name",
-      "email": "yourname@agency.gov"
-    }
-  ]
+  "status": "active"
 }
 ```
 
@@ -49,7 +43,6 @@ Copy this template and fill in your server's details:
 | `license` | ⬜ | SPDX identifier (e.g., `MIT`, `Apache-2.0`, `CC0-1.0`) |
 | `tags` | ⬜ | Array of relevant keywords |
 | `status` | ⬜ | `active`, `experimental`, or `archived` (default: `active`) |
-| `maintainers` | ⬜ | Array of maintainer objects with `name` and `email` (must be .gov) |
 
 ## Adding Your Entry
 
@@ -85,13 +78,7 @@ Copy this template and fill in your server's details:
   "health_endpoint": "https://census-mcp.census.gov/health",
   "license": "CC0-1.0",
   "tags": ["demographics", "census", "population"],
-  "status": "active",
-  "maintainers": [
-    {
-      "name": "Jane Doe",
-      "email": "jane.doe@census.gov"
-    }
-  ]
+  "status": "active"
 }
 ```
 

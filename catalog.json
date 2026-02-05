@@ -11,13 +11,7 @@
       "repository": "https://github.com/uscensusbureau/us-census-bureau-data-api-mcp",
       "license": "CC0-1.0",
       "tags": ["demographics", "census", "population"],
-      "status": "active",
-      "maintainers": [
-        {
-          "name": "Example Maintainer",
-          "email": "example@census.gov"
-        }
-      ]
+      "status": "active"
     },
     {
       "id": "usa-spending",
@@ -29,13 +23,7 @@
       "remote_url": "https://usa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov/mcp",
       "health_endpoint": "https://usa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov/health",
       "tags": ["spending", "contracts", "grants"],
-      "status": "active",
-      "maintainers": [
-        {
-          "name": "Samuel Levy",
-          "email": "sam.levy@gsa.gov"
-        }
-      ]
+      "status": "active"
     },
     {
       "id": "nih-reporter",
@@ -47,17 +35,7 @@
       "remote_url": "http://nih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov/mcp",
       "health_endpoint": "http://nih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov/health",
       "tags": ["health", "research", "grants", "nih"],
-      "status": "active",
-      "maintainers": [
-        {
-          "name": "Mark Aronson",
-          "email": "mark.aronson@gsa.gov"
-        },
-        {
-          "name": "Haley Johnson",
-          "email": "haley.johnson@gsa.gov"
-        }
-      ]
+      "status": "active"
     },
     {
       "id": "cdc-places",
@@ -69,17 +47,7 @@
       "remote_url": "http://cdc-places-mcp-server-friendly-kangaroo-rk.app.cloud.gov/mcp",
       "health_endpoint": "http://cdc-places-mcp-server-friendly-kangaroo-rk.app.cloud.gov/health",
       "tags": ["health", "chronic-disease", "cdc", "public-health"],
-      "status": "active",
-      "maintainers": [
-        {
-          "name": "Mark Aronson",
-          "email": "mark.aronson@gsa.gov"
-        },
-        {
-          "name": "Haley Johnson",
-          "email": "haley.johnson@gsa.gov"
-        }
-      ]
+      "status": "active"
     },
     {
       "id": "usa-analytics",
@@ -89,13 +57,7 @@
       "description": "Provides access to analytics data from analytics.usa.gov tracking federal government website traffic",
       "repository": "https://github.com/GSA-TTS/usdc-arc-mcp-demo",
       "tags": ["analytics", "web-traffic", "digital-services"],
-      "status": "active",
-      "maintainers": [
-        {
-          "name": "Samuel Levy",
-          "email": "sam.levy@gsa.gov"
-        }
-      ]
+      "status": "active"
     }
   ]
 }
