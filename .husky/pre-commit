@@ -1,0 +1,3 @@
+npm run validate
+npm run generate
+git add README.md

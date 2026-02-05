@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "updated": "2026-01-08",
+  "servers": [
+    {
+      "id": "us-census-demographics",
+      "name": "U.S. Census Demographics MCP Server",
+      "agency": "U.S. Census Bureau",
+      "dataset": "U.S. Census Data",
+      "description": "Provides programmatic access to U.S. Census demographic data including population, income, and housing statistics",
+      "repository": "https://github.com/uscensusbureau/us-census-bureau-data-api-mcp",
+      "license": "CC0-1.0",
+      "tags": ["demographics", "census", "population"],
+      "status": "active"
+    },
+    {
+      "id": "usa-spending",
+      "name": "USA Spending MCP Server",
+      "agency": "U.S. Department of the Treasury",
+      "dataset": "USA Spending Data",
+      "description": "Offers access to federal spending data including contracts, grants, loans, and other financial assistance",
+      "repository": "https://github.com/GSA-TTS/usa-spending-mcp-server-DEMO/tree/main",
+      "remote_url": "https://usa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov/mcp",
+      "health_endpoint": "https://usa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov/health",
+      "tags": ["spending", "contracts", "grants"],
+      "status": "active"
+    },
+    {
+      "id": "nih-reporter",
+      "name": "NIH Reporter MCP Server",
+      "agency": "National Institutes of Health",
+      "dataset": "NIH Reporter",
+      "description": "Provides access to NIH research portfolio data including grants, publications, patents, and clinical trials",
+      "repository": "https://github.com/GSA-TTS/nih-reporter-mcp-server/tree/main",
+      "remote_url": "http://nih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov/mcp",
+      "health_endpoint": "http://nih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov/health",
+      "tags": ["health", "research", "grants", "nih"],
+      "status": "active"
+    },
+    {
+      "id": "cdc-places",
+      "name": "CDC PLACES MCP Server",
+      "agency": "Centers for Disease Control and Prevention",
+      "dataset": "CDC PLACES",
+      "description": "Provides access to CDC PLACES data with local health estimates for chronic disease measures across US counties and cities",
+      "repository": "https://github.com/GSA-TTS/cdc-places-mcp-server",
+      "remote_url": "http://cdc-places-mcp-server-friendly-kangaroo-rk.app.cloud.gov/mcp",
+      "health_endpoint": "http://cdc-places-mcp-server-friendly-kangaroo-rk.app.cloud.gov/health",
+      "tags": ["health", "chronic-disease", "cdc", "public-health"],
+      "status": "active"
+    },
+    {
+      "id": "usa-analytics",
+      "name": "USA Analytics MCP Server",
+      "agency": "General Services Administration",
+      "dataset": "USA Analytics",
+      "description": "Provides access to analytics data from analytics.usa.gov tracking federal government website traffic",
+      "repository": "https://github.com/GSA-TTS/usdc-arc-mcp-demo",
+      "tags": ["analytics", "web-traffic", "digital-services"],
+      "status": "active"
+    }
+  ]
+}
