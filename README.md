@@ -6,6 +6,10 @@ A curated catalog of Model Context Protocol (MCP) servers providing programmatic
 
 The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open standard that enables AI assistants to securely connect to data sources and tools. MCP servers act as bridges between AI models and external systems.
 
+## Why are MCP servers important for open federal data? 
+
+MCP servers act as a bridge between AI systems and datasets accessible via an API and can greatly increase the accuracy of AI model responses, as discussed in [this report](https://digitalcorps.gsa.gov/pdfs/MCP_Report.pdf). 
+
 ## Available Servers
 
 <!-- BEGIN GENERATED TABLE -->
