@@ -26,6 +26,19 @@
       "status": "active"
     },
     {
+      "id": "tarkagrid-civic-intelligence",
+      "name": "TarkaGrid Civic Intelligence MCP",
+      "agency": "Multi-municipal open data (Montgomery AL, Baltimore MD) via TarkaGrid",
+      "dataset": "FEMA NFHL flood hazard, municipal 311, ACS census demographics, address points",
+      "description": "Address-level civic facts MCP: FEMA flood zones, 311 density trends, and ACS census demographics for real street addresses. Facts-only tools for AI agents; works alongside the federal MCP ecosystem.",
+      "repository": "https://github.com/tarkagrid/tarkagrid-mcp-examples",
+      "remote_url": "https://mcp.tarkagrid.com/mcp",
+      "health_endpoint": "https://mcp.tarkagrid.com/health",
+      "license": "Proprietary",
+      "tags": ["flood", "fema", "311", "census", "municipal", "gis", "civic-data", "open-data"],
+      "status": "active"
+    },
+    {
       "id": "nih-reporter",
       "name": "NIH Reporter MCP Server",
       "agency": "National Institutes of Health",
