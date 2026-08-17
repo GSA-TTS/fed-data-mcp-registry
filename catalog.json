@@ -58,6 +58,17 @@
       "repository": "https://github.com/GSA-TTS/usdc-arc-mcp-demo",
       "tags": ["analytics", "web-traffic", "digital-services"],
       "status": "active"
+    },
+    {
+      "id": "federal-compass",
+      "name": "Federal Compass MCP Server",
+      "agency": "Office of Personnel Management",
+      "dataset": "USAJobs Federal Job Postings",
+      "description": "Searches federal job openings via the USAJobs API and explains federal hiring — GS grades and pay, security clearances, and hiring paths — plus matches a saved CV against postings and extracts KSAs.",
+      "repository": "https://github.com/skivuha/federal-compass-mcp",
+      "license": "MIT",
+      "tags": ["jobs", "careers", "usajobs", "federal-hiring", "opm"],
+      "status": "active"
     }
   ]
 }
