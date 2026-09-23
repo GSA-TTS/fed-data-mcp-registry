@@ -58,6 +58,17 @@
       "repository": "https://github.com/GSA-TTS/usdc-arc-mcp-demo",
       "tags": ["analytics", "web-traffic", "digital-services"],
       "status": "active"
+    },
+    {
+      "id": "nid-dams",
+      "name": "National Inventory of Dams MCP Server (community, unofficial)",
+      "agency": "U.S. Army Corps of Engineers",
+      "dataset": "National Inventory of Dams (NID)",
+      "description": "Search ~92,000 U.S. dams by state, county, hazard potential, purpose, type and NRCS watershed authority, or fetch every published field for one dam, from the USACE public NID feature service. Every result carries provenance. Community-built; not affiliated with USACE.",
+      "repository": "https://github.com/C-D-Consulting/public-data-mcp/tree/main/packages/nid-dams-mcp",
+      "license": "Apache-2.0",
+      "tags": ["dams", "dam-safety", "infrastructure", "water", "flood-risk", "usace", "emergency-management"],
+      "status": "experimental"
     }
   ]
 }
