@@ -58,6 +58,25 @@
       "repository": "https://github.com/GSA-TTS/usdc-arc-mcp-demo",
       "tags": ["analytics", "web-traffic", "digital-services"],
       "status": "active"
+    },
+    {
+      "id": "usaspending-1102tools",
+      "name": "USAspending MCP Server (community, unofficial)",
+      "agency": "U.S. Department of the Treasury",
+      "dataset": "USAspending.gov",
+      "description": "Hosted, keyless access to USAspending.gov: award and IDV search and detail, transactions, recipients, agency and federal account spending, subawards and reference data (55 tools). Open source with offline and live tests. Community-built by 1102tools; not affiliated with Treasury.",
+      "repository": "https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/usaspending-gov-mcp",
+      "remote_url": "https://usaspending.1102tools.com/mcp",
+      "health_endpoint": "https://usaspending.1102tools.com/health",
+      "license": "MIT",
+      "tags": [
+        "spending",
+        "contracts",
+        "grants",
+        "awards",
+        "procurement"
+      ],
+      "status": "active"
     }
   ]
 }

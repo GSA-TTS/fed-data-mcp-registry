@@ -20,6 +20,7 @@ MCP servers act as a bridge between AI systems and datasets accessible via an AP
 | NIH Reporter | National Institutes of Health | https://github.com/GSA-TTS/nih-reporter-mcp-server/tree/main | http://nih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov/mcp | ![status](https://img.shields.io/website?url=http%3A%2F%2Fnih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov%2Fhealth) |
 | U.S. Census Data | U.S. Census Bureau | https://github.com/uscensusbureau/us-census-bureau-data-api-mcp |  | — |
 | USA Spending Data | U.S. Department of the Treasury | https://github.com/GSA-TTS/usa-spending-mcp-server-DEMO/tree/main | https://usa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov/mcp | ![status](https://img.shields.io/website?url=https%3A%2F%2Fusa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov%2Fhealth) |
+| USAspending.gov | U.S. Department of the Treasury | https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/usaspending-gov-mcp | https://usaspending.1102tools.com/mcp | ![status](https://img.shields.io/website?url=https%3A%2F%2Fusaspending.1102tools.com%2Fhealth) |
 <!-- END GENERATED TABLE -->
 
 
