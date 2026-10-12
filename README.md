@@ -19,6 +19,7 @@ MCP servers act as a bridge between AI systems and datasets accessible via an AP
 | USA Analytics | General Services Administration | https://github.com/GSA-TTS/usdc-arc-mcp-demo |  | — |
 | NIH Reporter | National Institutes of Health | https://github.com/GSA-TTS/nih-reporter-mcp-server/tree/main | http://nih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov/mcp | ![status](https://img.shields.io/website?url=http%3A%2F%2Fnih-reporter-mcp-server-turbulent-impala-zh.app.cloud.gov%2Fhealth) |
 | U.S. Census Data | U.S. Census Bureau | https://github.com/uscensusbureau/us-census-bureau-data-api-mcp |  | — |
+| Cross-agency U.S. official statistics | U.S. Census Bureau, Bureau of Labor Statistics, Bureau of Economic Analysis, CDC, U.S. Treasury, Federal Reserve | https://github.com/estevecastells/invokely-mcp-connector | https://invokely.ai/mcp/trial | ![status](https://img.shields.io/website?url=https%3A%2F%2Finvokely.ai%2Fhealth) |
 | USA Spending Data | U.S. Department of the Treasury | https://github.com/GSA-TTS/usa-spending-mcp-server-DEMO/tree/main | https://usa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov/mcp | ![status](https://img.shields.io/website?url=https%3A%2F%2Fusa-spending-mcp-server-brash-armadillo-hw.app.cloud.gov%2Fhealth) |
 <!-- END GENERATED TABLE -->
 

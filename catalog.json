@@ -58,6 +58,18 @@
       "repository": "https://github.com/GSA-TTS/usdc-arc-mcp-demo",
       "tags": ["analytics", "web-traffic", "digital-services"],
       "status": "active"
+    },
+    {
+      "id": "invokely-official-statistics",
+      "name": "Invokely Official Statistics MCP",
+      "agency": "U.S. Census Bureau, Bureau of Labor Statistics, Bureau of Economic Analysis, CDC, U.S. Treasury, Federal Reserve",
+      "dataset": "Cross-agency U.S. official statistics",
+      "description": "Independent hosted MCP service for source-cited official statistics from U.S. federal data publishers and the Federal Reserve, with additional international official sources. A no-account trial allows 25 calls/day/IP; a no-card Free account includes 500 MCP calls/month. The linked MIT repository is a local adapter only; the hosted backend is separate. REST data queries require Builder, Pro or prepaid credits.",
+      "repository": "https://github.com/estevecastells/invokely-mcp-connector",
+      "remote_url": "https://invokely.ai/mcp/trial",
+      "health_endpoint": "https://invokely.ai/health",
+      "tags": ["statistics", "census", "labor", "economics", "public-health", "mcp"],
+      "status": "active"
     }
   ]
 }
